@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpLopad File</title>
+</head>
+<body>
+    <label>Informações do arquivo</label>
+    <input class="dados-arquivo" placeholder="formato: nome/tamanho/tipo">
+
+    <button onclick="FileController.envia()">Enviar</button>
+
+    <script src="./ajudante/file.js"></script>
+    <script src="./ajudante/FileController.js"></script>
+    <script src="./ajudante/FileHelper.js"></script>
+    <script>
+        let arquivo = new File();
+    </script>
+</body>
+</html>
